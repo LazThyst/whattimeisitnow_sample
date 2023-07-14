@@ -1,4 +1,3 @@
-<!doctype javascript>
 function test() {
-  alert("3:34");
+  alert("03:34");
 }
