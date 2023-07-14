@@ -1,3 +1,3 @@
 function test() {
-  alert("03:34");
+  alert(new Date());
 }
