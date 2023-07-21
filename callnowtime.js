@@ -20,7 +20,7 @@ function dayToString(integer) {
 // let dayToString = (integer) => WEEKDAYS[integer];
 // let dayToString = integer => WEEKDAYS[integer];
 // 例: 無名関数
-// let dayToString = function (integer) { return WEEKDAYS[integer] };
+// dayToString = function (integer) { return WEEKDAYS[integer] };
 
 function alertDate() {
   const time = new Date();
