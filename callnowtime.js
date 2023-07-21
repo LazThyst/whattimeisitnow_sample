@@ -16,7 +16,7 @@ function dayToString(integer) {
 }
 // 上記関数は他の書き方もできる。（厳密には挙動が異なるが）
 // 例: アロー関数（3 行とも同じもの。下に行くにつれて省略が強い書き方。）
-// let dayToString = (integer) => { WEEKDAYS[integer] };
+// let dayToString = (integer) => { return WEEKDAYS[integer] };
 // let dayToString = (integer) => WEEKDAYS[integer];
 // let dayToString = integer => WEEKDAYS[integer];
 // 例: 無名関数
