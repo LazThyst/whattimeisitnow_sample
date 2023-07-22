@@ -1,6 +1,6 @@
 // 定数（WEEKDAYS）: 共通で使う値を定義する。慣例的に大文字の名前を付ける。
 // 配列（["日", "月", ...]）: 要素を複数持つ構造体。0 始まりの添字（array[0]）で参照する。
-//   補足: 興味があればイテレータ（Iterator: forEach などの逐次処理）も知っておくと便利。
+//   補足: 興味があれば forEach なども知っておくと便利。
 const WEEKDAYS = ["日", "月", "火", "水", "木", "金", "土"]
 
 function zeroPaddingLeft(target, padNumber) {
@@ -19,8 +19,6 @@ function dayToString(integer) {
 // let dayToString = (integer) => { return WEEKDAYS[integer] };
 // let dayToString = (integer) => WEEKDAYS[integer];
 // let dayToString = integer => WEEKDAYS[integer];
-// 例: 無名関数
-// dayToString = function (integer) { return WEEKDAYS[integer] };
 
 function alertDate() {
   const time = new Date();
